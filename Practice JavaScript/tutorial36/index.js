@@ -1,9 +1,10 @@
 var myVar = document.querySelector("#bulb");
-function myMessage1(){
+
+function bulbOn(){
   myVar.src = "./pic_bulbon.gif";
 }
-
-function myMessage2(){
+   
+function bulbOff(){
     myVar.src = "./pic_bulboff.gif";
- }
-  
+}
+   
